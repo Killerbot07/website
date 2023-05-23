@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav style="margin-top: 0;">
+        <div class="nav-center">
+            <div class="nav-header">
+                <a href="index.html"><img src="" class="logo" alt="logo"></a>
+                <button class="nav-toggle">
+                    <!-- <i class="fas fa-bars"></i>
+                                <i class="fa-solid fa-bars"></i> -->
+                    <img src="icons/menu.png" alt="">
+                </button>
+            </div>
+            <ul class="links">
+                <li class="link" style="list-style-type: none;"><a href="index.html#about">ABOUT</a></li>
+                <li class="link" style="list-style-type: none;"><a href="index.html#service">SERVICES</a></li>
+                <li class="link" style="list-style-type: none;"><a href="services.html">PROCESS</a></li>
+                <li class="link" style="list-style-type: none;"><a href="index.html#portfolio">WORK</a></li>
+                <div class="but-pos">
+                    <button class="button link"><a href="contact.html">SCHEDULE CALL</a></button>
+                </div>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="con1">
+        <div class="con-top">
+            <h1 class="con-h1">Let’s get your copy <b class="change">rolling!</b></h1>
+            <p class="con-p">My team and I would be honored to help craft copy that resonates with your very best customers.</p>
+        </div>
+        <div class="con-girl">
+            <img class="con-img" src="girl.png" alt="">
+        </div>
+    </section>
+
+    <section class="con-main">
+        <form class="con-flex" method="post" action="email.php">
+            <h2>Are we a good fit?</h2>
+            <p class="con-flex-p">Fill out this short form and my project manager will be in touch within 48 business hours.</p>
+            <p class="con-flex-p">- If we're a good fit, you'll get a link to schedule a call.</p>
+            <p class="con-flex-p">- If we're not a good fit, we'll try and direct you to a better resource.</p>
+            <p class="con-flex-p"><b class="con-b">Please note: Our next start date for full web copy is June 1, 2023. </b>Earlier dates available for
+                our <a class="con-a" href=""> One-Day Copywriting Intensive </a>and<a class="con-a" href=""> Power-Hour Copy Workout </a>.</p>
+            <div class="con-form">
+                <div class="form-name flex-row">
+                    <div class="first-name flex-col">
+                        <label class="label"  for="">First Name:*</label>
+                        <input id="first-name" name="first_name" class="input" type="text" required>
+                    </div>
+                    <div class="last-name flex-col">
+                        <label class="label"  for="">Last Name:</label>
+                        <input id="last-name" name="last_name" class="input" type="text">
+                    </div>
+                </div>
+                <div class="form-link flex-row">
+                    <div class="email-name flex-col">
+                        <label class="label" for="">Email:*</label>
+                        <input id="email" name="email" type="email" class="input" required>
+                    </div>
+                    <div class="site-name flex-col">
+                        <label class="label"  for="">Website URL:</label>
+                        <input id="website" name="website" type="text" class="input">
+                    </div>
+                </div>
+                <div class="flex-col mar-top">
+                    <label class="label"  for="">Tell us about your needs:</label>
+                    <input class="inp-hun input" id="message" name="message" type="text">
+                </div>
+            </div>
+            <div class="con-book">
+                <div class="form-date flex-row">
+                    <div class="start-date flex-col">
+                        <label class="label"  for="">Desired Start Date:</label>
+                        <input id="start-date" name="start_date" placeholder="(mm-dd-yy)" type="date" class="input">
+                    </div>
+                    <div class="deadline flex-col">
+                        <label class="label"  for="">Project Deadline (if any):</label>
+                        <input id="deadline" name="deadline" placeholder="(mm-dd-yy)" type="date" class="input">
+                    </div>
+                </div>
+                <div class="con-info">
+                    <label class="label" for="">Your project budget:</label>
+                    <div class="start-date flex-coll">
+                        <div><input type="text" id="start-date" name="start_date" placeholder="Enter Budget" type="text"  class="input"></div>
+                        <div class="flex-cur">
+                            <div class="flex-curl">
+                                <label for="">USD</label>
+                                <input type="radio" name="rad">
+                            </div>
+                            <div class="flex-curl">
+                                <label for="">INR</label>
+                                <input type="radio" name="rad">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <p class="note">(Please note: apart from our day rate package and Power-Hour, our project minimum for new clients is $5000)</p>
+                </div>
+            </div>
+            <button type="submit" name="send" class="send">Send</button>
+        </form>
+
+    </section>
+
+    <footer class="section_6">
+        
+        <!-- <div class="sec6-bot-space"></div> -->
+        <div class="footer">
+            <div class="fot-div-1">
+                <h4>INKSPIRATION</h4>
+                <p>By Roy, freelance writer and content creator</p>
+            </div>
+            <div class="fot-div-2">
+                <p class="fot2-p1">EMAIL / CONTACT</p>
+                <p class="fot2-p">I'd love to hear from you at</p>
+                <p class="fot2-p">noywirters@gmail.com or you can get in</p>
+                <p class="fot2-p">touch through the website</p>
+            </div>
+            <div class="fot-div-3">
+                <p class="fot3-p">GET IN TOUCH</p>
+                <div class="fot-links">
+                    <img src="instagram.png" alt="">
+                    <p>Instagram</p>
+                </div>
+                <div class="fot-links">
+                    <img src="linkedin.png" alt="">
+                    <p>LinkedIn</p>
+                </div>
+                <div class="fot-links">
+                    <img src="twitter.png" alt="">
+                    <p>Twitter</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
